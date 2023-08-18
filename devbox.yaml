@@ -1,7 +1,6 @@
- name: "CustomFromCodeDevBoxExamplePubGit"
+ name: CustomFromCodeDevBoxExamplePubGit
  image: HostingImages/HostingCloudOps
  hostInformation: general_i_8c32gb256ssd_v2
- supportsHibernation: true  
  setupTasks:
    - task: winget
      inputs:
