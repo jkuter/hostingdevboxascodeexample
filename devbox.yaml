@@ -5,9 +5,9 @@
    - task: winget
      inputs:
        package: OpenJS.NodeJS.LTS
-   - task: "choco"
+   - task: choco
     inputs:
-      install: "7zip"
-   - task: "choco"
+      install: 7zip
+   - task: choco
     inputs:
-      install: "Brave"
+      install: Brave
