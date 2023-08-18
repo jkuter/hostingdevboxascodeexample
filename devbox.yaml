@@ -1,0 +1,11 @@
+ name: VSCodeAndNode
+ image: HostingImages/HostingCloudOps
+ hostInformation: general_i_8c32gb256ssd_v2
+ supportsHibernation: true  
+ setupTasks:
+   - task: winget
+     inputs:
+       package: OpenJS.NodeJS.LTS
+   - task: "choco"
+    inputs:
+      install: "7zip"
