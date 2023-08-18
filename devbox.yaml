@@ -1,13 +1,13 @@
- name: CustomFromCodeDevBoxExamplePubGit
- image: HostingImages/HostingCloudOps
- hostInformation: general_i_8c32gb256ssd_v2
- setupTasks:
-   - task: winget
-     inputs:
-       package: OpenJS.NodeJS.LTS
-   - task: choco
+name: CustomFromCodeDevBoxExamplePubGit
+image: HostingImages/HostingCloudOps
+hostInformation: general_i_8c32gb256ssd_v2
+setupTasks:
+  - task: winget
+    inputs:
+      package: OpenJS.NodeJS.LTS
+  - task: choco
     inputs:
       install: 7zip
-   - task: choco
+  - task: choco
     inputs:
       install: Brave
