@@ -1,4 +1,4 @@
- name: VSCodeAndNode
+ name: "CustomFromCodeDevBoxExamplePubGit"
  image: HostingImages/HostingCloudOps
  hostInformation: general_i_8c32gb256ssd_v2
  supportsHibernation: true  
@@ -9,3 +9,6 @@
    - task: "choco"
     inputs:
       install: "7zip"
+   - task: "choco"
+    inputs:
+      install: "Brave"
