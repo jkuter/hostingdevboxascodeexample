@@ -1,6 +1,6 @@
 name: "CustomFromCodeDevBoxExamplePubGit"
 image: "HostingImages/HostingCloudOps"
-hostInformation: "general_i_8c32gb256ssd_v2"
+hostInformation: "general_i_8c32gb512ssd_v2"
 setupTasks:
   - task: "winget"
     inputs:
