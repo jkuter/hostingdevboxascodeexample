@@ -5,9 +5,3 @@ setupTasks:
   - task: winget
     inputs:
       package: OpenJS.NodeJS.LTS
-  - task: choco
-    inputs:
-      install: 7zip
-  - task: choco
-    inputs:
-      install: Brave
