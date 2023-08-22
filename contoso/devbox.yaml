@@ -1,0 +1,10 @@
+name: contoso-widgets
+image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
+hostInformation: general_a_8c32gb256ssd_v1
+setupTasks:   
+- task: powershell
+  inputs:
+    command: Install-Language ja-JP; Set-SystemPreferredUILanguage ja-JP
+- task: winget
+  inputs:
+    install: azd
