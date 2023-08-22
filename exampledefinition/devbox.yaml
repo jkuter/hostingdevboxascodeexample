@@ -1,7 +1,7 @@
-name: CustomFromCodeDevBoxExamplePubGit
-image: HostingImages/HostingCloudOps
-hostInformation: general_i_8c32gb256ssd_v2
+name: "CustomFromCodeDevBoxExamplePubGit"
+image: "HostingImages/HostingCloudOps"
+hostInformation: "general_i_8c32gb256ssd_v2"
 setupTasks:
-  - task: winget
+  - task: "winget"
     inputs:
-      package: OpenJS.NodeJS.LTS
+      package: "OpenJS.NodeJS.LTS"
